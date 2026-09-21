@@ -35,7 +35,11 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
         Text(
-            text = "This is the first application from Group 3:\nReinis Sausiņš\nRičards Ābols\nAnd the application was developed by 'Reinis Sausiņš'",
+            text = "This is the first application from Group G-03-26:\n" +
+                    "Kristaps Loginovs\n" +
+                    "Reinis Sausiņš\n" +
+                    "Ričards Ābols\n" +
+                    "And the application was developed by Kristaps Loginovs",
             modifier = modifier
         )
     }
