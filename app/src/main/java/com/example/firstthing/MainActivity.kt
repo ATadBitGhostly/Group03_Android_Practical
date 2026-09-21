@@ -33,12 +33,14 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Column(modifier = modifier) {
-        Text(
-            text = "This is the first application from Group 3:\nReinis Sausiņš\nRičards Ābols\nAnd the application was developed by 'Reinis Sausiņš'",
-            modifier = modifier
-        )
-    }
+    Text(
+        text = "This is the first application from Group 3: \n" +
+                "Ričards Ābols \n" +
+                "Reinis Sausiņš \n" +
+                "Kristaps Loginovs \n" +
+                "And the application was developed by: Ričards Ābols",
+        modifier = modifier
+    )
 }
 
 @Preview(showBackground = true)
