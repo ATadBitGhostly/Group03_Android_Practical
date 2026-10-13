@@ -56,6 +56,26 @@ fun FirstActivityScreen() {
 
         Spacer(modifier = Modifier.height(8.dp))
 
+        Button(onClick = {
+            context.startActivity(Intent(context, ThirdActivityWithNav::class.java))
+        }) {
+            Text(
+                text = "Go to 3rd Activity",
+            )
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Button(onClick = {
+            context.startActivity(Intent(context, FourthActivity::class.java))
+        }) {
+            Text(
+                text = "Go to 4th Activity"
+            )
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
         Button(onClick = { showDialog = true }) {
             Text("Dialog")
         }
@@ -123,15 +143,12 @@ fun GroupDialog(onDismiss: () -> Unit) {
 }
 
 
-//@Preview(showBackground = true)
-//@Composable
-//fun GreetingPreview() {
-//    FirstThingTheme {
-//        Column() {
-//            Greeting("Android")
-//            Button(onClick = { /*TODO*/ }) {
-//                Text("Add")
-//            }
-//        }
-//    }
-//}
+@Preview(showBackground = true)
+@Composable
+fun FirstScreenPreview() {
+    FirstThingTheme {
+        Column() {
+            FirstActivityScreen()
+        }
+    }
+}

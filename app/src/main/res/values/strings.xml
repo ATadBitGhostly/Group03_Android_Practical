@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FirstThing</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_third_with_nav">ThirdActivityWithNav</string>
+    <string name="title_activity_fourth">FourthActivity</string>
 </resources>
 

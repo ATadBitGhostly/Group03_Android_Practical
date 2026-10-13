@@ -26,7 +26,24 @@
         <activity
             android:name=".SecondActivity"
             android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:label="@string/title_activity_third"
+            android:theme="@style/Theme.FirstThing"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ThirdActivityWithNav"
+            android:exported="false"
+            android:label="@string/title_activity_third_with_nav"
+            android:theme="@style/Theme.FirstThing"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false"
+            android:label="@string/title_activity_fourth"
+            android:theme="@style/Theme.FirstThing"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
-
