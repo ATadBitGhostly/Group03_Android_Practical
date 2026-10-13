@@ -26,7 +26,12 @@
         <activity
             android:name=".SecondActivity"
             android:exported="false" />
+        <activity
+            android:name=".InputSave"
+            android:exported="false"
+            android:label="@string/title_activity_input_save"
+            android:theme="@style/Theme.FirstThing"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
-

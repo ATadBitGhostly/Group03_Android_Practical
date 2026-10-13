@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FirstThing</string>
+    <string name="title_activity_input_save">InputSave</string>
 </resources>
 
