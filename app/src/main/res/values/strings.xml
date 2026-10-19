@@ -4,5 +4,6 @@
     <string name="title_activity_third">ThirdActivity</string>
     <string name="title_activity_third_with_nav">ThirdActivityWithNav</string>
     <string name="title_activity_fourth">FourthActivity</string>
+    <string name="title_activity_fifth">FifthActivity</string>
 </resources>
 

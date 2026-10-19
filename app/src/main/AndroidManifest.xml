@@ -44,6 +44,12 @@
             android:label="@string/title_activity_fourth"
             android:theme="@style/Theme.FirstThing"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".FifthActivity"
+            android:exported="false"
+            android:label="@string/title_activity_fifth"
+            android:theme="@style/Theme.FirstThing"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
