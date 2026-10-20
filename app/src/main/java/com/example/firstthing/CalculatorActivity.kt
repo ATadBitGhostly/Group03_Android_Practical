@@ -77,6 +77,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview3() {
     FirstThingTheme {
-        Greeting("Android")
+        Greeting("Calculator")
     }
 }
