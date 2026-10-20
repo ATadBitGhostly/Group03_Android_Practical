@@ -50,6 +50,12 @@
             android:label="@string/title_activity_fifth"
             android:theme="@style/Theme.FirstThing"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_calculator"
+            android:theme="@style/Theme.FirstThing"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

@@ -101,7 +101,6 @@ fun SavingFunction(
     Box(
         modifier = modifier.fillMaxSize()
     ) {
-        // Dropdown overflow button positioned at the top-right corner
         Box(
             modifier = Modifier
                 .align(Alignment.TopEnd)

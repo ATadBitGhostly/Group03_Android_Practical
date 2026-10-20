@@ -76,6 +76,16 @@ fun FirstActivityScreen() {
 
         Spacer(modifier = Modifier.height(8.dp))
 
+        Button(onClick = {
+            context.startActivity(Intent(context, CalculatorActivity::class.java))
+        }) {
+            Text(
+                text = "Calculator 2+2=4-1=3 quik mafs"
+            )
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
         Button(onClick = { showDialog = true }) {
             Text("Dialog")
         }
